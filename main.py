@@ -4,8 +4,8 @@ import pdfkit # PDF
 
 def gemini():
     # Google Gemini AI
-    model = genai.GenerativeModel('gemini-2.0-flash')
-    apiKey = "AIzaSyB_-gYBfP33OuIgydhIbifPESp51tUCyzo"
+    model = genai.GenerativeModel('gemini-2.0-flash') # Specifing Gemini Model
+    apiKey = "AIzaSyB_-gYBfP33OuIgydhIbifPESp51tUCyzo" # API Key
     genai.configure(api_key=apiKey)
 
     # User Input
